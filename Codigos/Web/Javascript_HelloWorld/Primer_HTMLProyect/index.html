@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="es">
+<!-- Head es el nombre que aparece en la pestana de la pagina web -->
+<head>
+	<title>
+	Mi primera pagina Web	
+	</title>
+</head>
+
+<body>
+
+<!-- Primer encabezadb de la pagna web, solo debe haber uno de preferencia -->
+<h1>Titulo de mi Web</h1>
+
+<!-- Segundo encambezado -->
+<h2> Bienvenidos a mi Web</h2>
+
+<!-- La etiqueta "p" sirve para delimitar un parrafo. Dentro de el puedo escribir
+cualquier tipo de texto que desee -->
+<p>
+	HLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dictum velit quis dictum laoreet. Duis tempor tincidunt diam, fermentum malesuada elit vehicula nec. Nulla vel eros vel quam aliquam commodo eu a lorem. Sed finibus lacus et orci sodales porta. Vivamus rutrum egestas magna, ut viverra risus imperdiet eu. Aenean ut risus sit amet nulla ultrices porta. Suspendisse suscipit risus in velit egestas, at aliquam velit mollis. In pulvinar, lectus vitae rhoncus fermentum, tellus justo luctus libero, nec ornare magna neque sit amet turpis. Aliquam ipsum nisi, posuere quis hendrerit at, placerat a enim. Aenean scelerisque blandit felis vel placerat. <br> Nunc ultricies semper egestas. Maecenas tempor mollis odio, vel porttitor nibh. Etiam eros odio, sodales venenatis dui non, efficitur cursus ante. Sed vel sapien iaculis, dictum metus vitae, vulputate leo. Mauris non vehicula neque. Maecenas erat quam, eleifend ut maximus in, malesuada in est.
+</p>
+
+
+<!--Etiqueta hr genera una linea separadora 
+	Etiqueta "Strong" resalta en negritas el texto
+    Etiqueta "br" genera un salto de linea en texto
+ 	Etiqueta "em" deja el texto en cursivas    
+ 	Etiquta "blockquote" deja el texto en formato de cita-->
+<p>
+	Suspendisse potenti. Duis euismod sodales nisl eget lacinia. Nam pharetra lacinia tempor. Vivamus dignissim mattis tristique. Ut non felis fringilla, sodales nunc ac, feugiat tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget egestas lorem, eget laoreet eros. Donec mollis neque eget felis commodo molestie. Vestibulum eget risus sapien. Praesent quis efficitur tellus. Phasellus vel sodales risus, at luctus sapien. Vivamus vel leo eu augue ultrices vulputate. Nunc vel sollicitudin mauris. Fusce feugiat luctus felis vel porta.
+
+</p>
+
+	<hr>
+	<h3>Imagenes en HTML</h3>
+	
+	<!-- IMG sirve para insertar imagenes en la pagina-->
+	<img src="D:\LOCUS\Pictures\dice.jpg" alt="Imagen de unos dados" title="Foto de DX" 
+	width="300" height="300">
+
+	<hr>
+
+<h3>Tercer encabezado de la pagina</h3>
+<p>
+	<strong> 
+		
+		<!-- La etiqueta "span" no modifica el texto, pero nos permite identificarlo
+		para tratarlo posteriormente con un programa -->
+		<span id = "resaltado" class="rojo amarillo"></span> Nunc cursus sollicitudin odio eget iaculis. Nunc quis scelerisque nibh. Curabitur feugiat, lectus in molestie consequat, turpis sem maximus massa, in faucibus sapien neque quis ex. Nunc efficitur posuere est. Proin commodo sem at turpis laoreet ultrices.
+	</strong>
+
+	<em>
+		Proin commodo sem at turpis laoreet ultrices. Maecenas viverra eros at nibh fermentum, ac suscipit lacus euismod. In porta turpis scelerisque diam pulvinar, eu tincidunt diam molestie. <br>
+	</em>
+
+	<blockquote>
+		Y este es el formato para citas, remarcandola dentro del texto. Proin commodo sem at turpis laoreet ultrices. Maecenas viverra eros at nibh fermentum, ac suscipit lacus euismod.Aliquam non condimentum orci. Suspendisse feugiat massa in sem luctus egestas at at purus. Sed magna turpis, elementum non enim quis, molestie convallis justo. Cras dignissim pretium diam, vitae fermentum elit feugiat faucibus. Vestibulum et tortor ac magna cursus imperdiet at non velit. 
+	</blockquote>
+
+</p>
+
+<h3>Formularios</h3>
+<form>
+	<h4>Input text</h4>
+	<p>
+	<label for="nombre">Nombre</label>
+	<input type="texto" name="nombre" placeholder="Escribe tu nombre...">
+	</p>
+
+	<hr>
+
+	<h4>Textarea</h4>
+	<p>
+	<label for="description">Descripcion</label>
+	<textarea name="description"></textarea>
+	</p>
+
+    <hr>
+
+	<h4>Radio button</h4>
+	<p>
+		<input type="radio" name="genero" value="hombre">Hombre <br>
+		<input type="radio" name="genero" value="mujer">Mujer <br>
+		<input type="radio" name="genero" value="ninguno">Ninguno <br>
+	</p>
+    <hr>
+
+	<h4>Select </h4>
+	<p>
+		<select name="gender">
+			<option value="hombre">Hombre</option>
+			<option value="mujer">Mujer</option>
+			<option value="ninguno">Ninguno</option>
+		</select>
+	</p>
+	<hr>
+
+	<h4>Boton Envio de datos </h4>
+	<input type="submit" value="Enviar formulario">
+	
+
+</form>
+
+<h3>Lista ordenada</h3>
+<!-- Para generar una lista ORDENADA usamos la etiqueta ol -->
+	<ol>
+		
+		<li>Manzana</li>
+		<li>Naranja</li>
+		<li>Pera</li>
+		<li>Sandia</li>
+
+	</ol>
+
+<h3>Lista desordenada</h3>
+<!-- Para generar una lista ORDENADA usamos la etiqueta ol -->
+	<ul>
+		
+		<li>Manzana
+			<ul>
+			<li>Roja</li>
+			<li>Verde</li>
+			</ul> 
+		</li>
+		<li>Naranja</li>
+		<li>Pera</li>
+		<li>Sandia</li>
+
+	</ul>
+
+	<h3>Tablas en HTML</h3>
+	<table border="3">
+		<tr>
+			<th>Nombre</th>
+			<th>Apellido</th>
+			<th>Pais</th>
+		</tr>
+		<tr>
+			<td>Erick</td>
+			<td>Hernandez</td>
+			<td>Mexico</td>
+		</tr>
+		<tr>
+			<td>David</td>
+			<td>Castillo</td>
+			<td>Canada</td>
+		</tr>
+	</table>
+
+</body>
+</html>
